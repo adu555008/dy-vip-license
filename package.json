@@ -6,8 +6,8 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "patch": "npm version patch", // 版本升级
-    "push": "git push --follow-tags", // 版本发布
+    "patch": "npm version patch",
+    "push": "git push --follow-tags",
     "dev": "vite",
     "build": "vite build"
   },
