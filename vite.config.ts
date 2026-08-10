@@ -4,8 +4,8 @@ import {defineConfig} from 'vite'
 export default defineConfig({
     build: {
         lib: {
-            entry: 'src/index.ts',
-            name: 'dyVipLocalValidation',
+            entry: 'src/index.js',
+            name: 'dyVipLicense',
             fileName: 'index'
         }
     }

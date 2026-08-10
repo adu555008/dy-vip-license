@@ -1,4 +1,4 @@
-//#region src/Validation.ts
+//#region src/Validation.js
 var e = class {
 	static init() {
 		console.log(0);
