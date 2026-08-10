@@ -1,7 +1,7 @@
 {
-  "name": "dy-vip-local-validation",
-  "version": "1.0.12",
-  "description": "",
+  "name": "dy-vip-license",
+  "version": "1.0.0",
+  "description": "A lightweight VIP license validation library",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
