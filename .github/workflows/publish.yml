@@ -28,11 +28,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
 
-      - name: Remove old auth
-        run: |
-          npm config delete //registry.npmjs.org/:_authToken || true
-
-
       - name: Install
         run: npm install
 
