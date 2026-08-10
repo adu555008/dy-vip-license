@@ -19,6 +19,7 @@
     // Other Outputs
     "sourceMap": true,
     "declaration": true,
+    "declarationDir": "dist",
     "declarationMap": true,
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
