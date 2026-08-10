@@ -8,32 +8,34 @@ on:
 permissions:
   contents: read
   id-token: write
+
+
 jobs:
 
   publish:
 
     runs-on: ubuntu-latest
-    environment: release
+
     steps:
+
       - name: Checkout
         uses: actions/checkout@v5
+
+
       - name: Setup Node
         uses: actions/setup-node@v5
         with:
           node-version: 22
           registry-url: https://registry.npmjs.org/
-      - name: Check npm
-        run: npm --version
+
 
       - name: Install
         run: npm install
 
+
       - name: Build
         run: npm run build
 
-      - name: Check npm identity
-        run: |
-          npm whoami
 
       - name: Publish
         run: npm publish --provenance --access public
