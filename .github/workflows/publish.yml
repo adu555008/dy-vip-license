@@ -28,6 +28,16 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
 
+      - name: Update npm
+        run: npm install -g npm@latest
+
+
+      - name: Check versions
+        run: |
+          node -v
+          npm -v
+
+
       - name: Install
         run: npm install
 
