@@ -3,8 +3,7 @@
   "version": "1.0.1",
   "description": "",
   "type": "module",
-  "main": "./dist/dy-vip-local-validation.umd.js",
-  "module": "./dist/dy-vip-local-validation.js",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
@@ -13,6 +12,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
