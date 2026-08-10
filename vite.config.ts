@@ -5,8 +5,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: 'src/index.ts',
-            name:'dyVipLocalValidation',
-            fileName:'dy-vip-local-validation'
+            name: 'dyVipLocalValidation',
+            fileName: 'index'
         }
     }
 })
