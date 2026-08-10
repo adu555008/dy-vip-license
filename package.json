@@ -6,7 +6,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "ppatch": "npm version patch", // 版本升级
+    "patch": "npm version patch", // 版本升级
     "push": "git push --follow-tags", // 版本发布
     "dev": "vite",
     "build": "vite build"
